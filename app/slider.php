@@ -50,15 +50,15 @@ window.onload=changeImg;
 					</tr>
 				</table></br></br></br>
 				</fieldset>
-<fieldset>				
+<fieldset>
 
 <center><img name="slide" width="600" height="300" /></center>
 
 </fieldset>
 
 <fieldset>
-	<table border="1px" width="100%">
-		<tr > 
+	<table border="" width="100%">
+		<tr >
 			<td>
 				<h4>Customer Service</h4></br>
 				<a href="">Help center</a></br>
@@ -68,17 +68,17 @@ window.onload=changeImg;
 				<a href="">returns & Refunds</a></br>
 				<a href="">Contact us</a></br>
 			</td>
-			
-			<td> 
+
+			<td>
 				<h4>About Us</h4></br>
 				<a href="">About Kinbo.com</a></br>
 				<a href="">Corporate Sales</a></br>
 				<a href="">Terms And Conditions</a></br>
 				<a href="">Privacy Policy</a></br>
 				<a href="">Careers</a></br>
-				
+
 			</td>
-			
+
 			<td>
 				<h4>Join Us</h4></br>
 				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
@@ -87,10 +87,10 @@ window.onload=changeImg;
 				</a>
 				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
 				</a>
-				
+
 			</td>
-			
-			
+
+
 		</tr>
 	</table>
 
