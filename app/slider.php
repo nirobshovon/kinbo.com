@@ -56,5 +56,45 @@ window.onload=changeImg;
 
 </fieldset>
 
+<fieldset>
+	<table border="1px" width="100%">
+		<tr > 
+			<td>
+				<h4>Customer Service</h4></br>
+				<a href="">Help center</a></br>
+				<a href="">How to shop on Kinbo.com</a></br>
+				<a href="">Track order</a></br>
+				<a href="">Why shop with Kinbo</a></br>
+				<a href="">returns & Refunds</a></br>
+				<a href="">Contact us</a></br>
+			</td>
+			
+			<td> 
+				<h4>About Us</h4></br>
+				<a href="">About Kinbo.com</a></br>
+				<a href="">Corporate Sales</a></br>
+				<a href="">Terms And Conditions</a></br>
+				<a href="">Privacy Policy</a></br>
+				<a href="">Careers</a></br>
+				
+			</td>
+			
+			<td>
+				<h4>Join Us</h4></br>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
+				</a>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
+				</a>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
+				</a>
+				
+			</td>
+			
+			
+		</tr>
+	</table>
+
+
+</fieldset>
 </body>
 </html>
