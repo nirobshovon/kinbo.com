@@ -10,5 +10,5 @@
 		to market or physically disabled people.We wish everyone will like our website and support us.Thanks very 
 		much for spending time with us.
 	</p>	
-		
+		<a href="slider.php" >back</a>
 </body>
