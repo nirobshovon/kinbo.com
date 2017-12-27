@@ -52,7 +52,7 @@ function filterTable($query)
                 <?php while($row = mysqli_fetch_array($search_result)):?>
                 <tr>
                     <td><?php echo $row['title'];?></td>
-                    <td> <img  src="image\\'.$row['img_path'].'" height="20" /></td>
+                    <td> <img  src="image\'.$row['img_path'].'" height="20" /></td>
                     <td><?php echo $row['price'];?></td>
                     <td><?php echo $row['stock'];?></td>
 					<td><h3><a href="cart.php?pid='.$row['id'].'" >Add to cart</a></h3></td>
