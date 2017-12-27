@@ -21,8 +21,56 @@
 				</table></br></br></br>
 				</fieldset>
 <fieldset>				
-
-
+		<table  width="100%">
+			<tr>
+				<td width="33%">
+				<a><img width="50px" height="50px" src="C:\xampp\htdocs\kinbo.com\image\productprices.png"></img>
+				</a>
+				
+				</br><a href="">Product & Prices</a>				
+				</td>
+				
+				<td width="33%">
+				<a><img width="50px" height="50px" src="C:\xampp\htdocs\kinbo.com\image\order.png"></img>
+				</a>
+				
+				</br><a href="">Orders</a>				
+				</td>
+				
+				<td width="33%">
+				<a><img width="50px" height="50px" src="C:\xampp\htdocs\kinbo.com\image\payment.png"></img>
+				</a>
+				
+				</br><a href="">Payment</a>				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				<td width="33%">
+				<a><img width="50px" height="50px" src="C:\xampp\htdocs\kinbo.com\image\Return.png"></img>
+				</a>
+				
+				</br><a href="">Return & Refunds</a>				
+				</td>
+				
+				<td width="33%">
+				<a><img width="50px" height="50px" src="C:\xampp\htdocs\kinbo.com\image\Delivery.png"></img>
+				</a>
+				
+				</br><a href="">Delivery</a>				
+				</td>
+				
+				<td width="33%">
+				<a><img width="50px" height="50px" src="C:\xampp\htdocs\kinbo.com\image\Other.png"></img>
+				</a>
+				
+				</br><a href="">Other</a>				
+				</td>
+				
+			</tr>
+			
+		</table>
 
 </fieldset>
 
