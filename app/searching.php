@@ -2,12 +2,12 @@
 
 if(isset($_POST['search']))
 {
-    $valueToSearch = $_POST['valueToSearch'];
+    $valueToSearch = $_POST['ItemToSearch'];
     // search in all table columns
     // using concat mysql function
     $query = "SELECT * FROM `product` WHERE `title` LIKE '%".$valueToSearch."%'";
     $search_result = filterTable($query);
-    
+
 }
  else {
     $query = "SELECT * FROM `product`";
@@ -36,10 +36,10 @@ function filterTable($query)
         </style>
     </head>
     <body>
-        
+
         <form  method="post">
-           
-            
+
+
             <table>
                 <tr>
                     <th>title</th>
@@ -60,6 +60,6 @@ function filterTable($query)
                 <?php endwhile;?>
             </table>
         </form>
-        
+
     </body>
 </html>
