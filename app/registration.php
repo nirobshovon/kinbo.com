@@ -21,7 +21,7 @@
 			}else if(strlen($password)<6 or !preg_match('/^[a-zA-Z0-9]+$/',$password))
 			{
 				echo'<script>
-						alert("Passwor must be greater than 6 character\n and can conatin letters and number!!");
+						alert("Password must be greater than 6 character\n and can conatin letters and number!!");
 					</script>';
 			}
 			else{
@@ -29,10 +29,11 @@
 
 					if(AddNewUser($name,$email,$password,$gender)){
 
-						header( 'Location: login.php' ) ;
+						//header( 'Location: login.php' ) ;
 						echo'<script>
 										alert("Registration successful!!");
 							</script>';
+							header( 'Location: login.php' ) ;
 					}else
 					{
 						echo'<script>
