@@ -35,9 +35,9 @@ window.onload=changeImg;
 	<title>E-Commerse</title>
 </head>
 <body>
+			<fieldset>
 
-
-				<center><h1><a href="index.php">Kinbo.com</a></h1></center>
+				<center><h1><a href="index.php">Kinbo.com</a></h1></center></br>
 
 				<table width="100%">
 					<tr>
@@ -48,8 +48,13 @@ window.onload=changeImg;
 						<td align="center"><a href="cart.php">Cart </a></td>
 						<td align="center"><a href="login.php">Login</a></td>
 					</tr>
-				</table></br></br></br></br></br></br>
+				</table></br></br></br>
+				</fieldset>
+<fieldset>				
 
 <center><img name="slide" width="600" height="300" /></center>
+
+</fieldset>
+
 </body>
 </html>
