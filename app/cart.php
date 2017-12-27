@@ -21,7 +21,6 @@
 	<title>E-Commerse</title>
 </head>
 <body>
-	<header>
 			<fieldset>
 				<center><a href="index.php"><h1>Kinbo.com</h1></a>
 
@@ -38,7 +37,6 @@
 				</table></br></br></br></br></br></br>
 
 
-	</header>
 
 	<div id="cart">
 		<?php
@@ -80,11 +78,8 @@
 
 
 		?>
-		<center></br></br><a href="order.php" ">Place Order</a></center>
-	</div>
-	// <?php
-		// require_once "userLeftMenu.php";
-	// ?>
+		<center></br></br><a href="order.php" >Place Order</a></center>
+
 
 </fieldset>
 	</body>

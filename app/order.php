@@ -51,13 +51,13 @@
 <center>
 				<a href="index.php"><h1>Kinbo.com</h1></a>
 
-				<h3>Welcome</h3>
+				<h3>Welcome &nbsp<?php echo $_SESSION['name'];?></h3></br>
 	</center>
 
 			<form method="POST">
 				<center>
-					Phone Number&nbsp&nbsp<input type="Text" name="phn_num" value="<?php if (isset($_POST['phn_num'])) { echo $_POST['phn_num']; } ?>" /></br></br>
-					Shipping Address &nbsp&nbsp<input type="text" placeholder="Enter Shipping Address" name="shipadd" value="<?php if (isset($_POST['shipadd'])) { echo $_POST['shipadd']; } ?>" /></br>
+					Phone Number&nbsp&nbsp<input type="Text" name="phn_num" placeholder="Enter Contact Number" value="<?php if (isset($_POST['phn_num'])) { echo $_POST['phn_num']; } ?>" required/></br></br>
+					Shipping Address &nbsp&nbsp<input type="text" placeholder="Enter Shipping Address" name="shipadd" value="<?php if (isset($_POST['shipadd'])) { echo $_POST['shipadd']; } ?>" required/></br>
 
 
 				</br><input type="submit" value="Confirm Order" name="order_btn" id="order_btn" />
