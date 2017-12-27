@@ -35,12 +35,4 @@
 		return $orders;
 	}
 
-	function deliverOrderById($id)
-	{
-		$query="update `order` set delivery_status='delivered' where id=$id";
-		$result = executeSQL($query);
-		return $result;
-	}
-
-
-?>
+	
