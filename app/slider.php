@@ -54,8 +54,8 @@ window.onload=changeImg;
 				</fieldset></br>
 				<center >
 				<form  action="searching.php" method="post">
-				 <input type="text" name="ItemToSearch" placeholder="Value To Search" required><br><br>
-                 <input type="submit" name="search" value="search item"><br><br>
+				 <input type="text" name="ItemToSearch" placeholder="Item To Search" required><br><br>
+                 <input type="submit" name="search" value="Search item"><br><br>
 				</form>
 				</center>
 
