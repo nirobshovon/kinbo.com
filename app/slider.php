@@ -50,15 +50,15 @@ window.onload=changeImg;
 					</tr>
 				</table></br></br></br>
 			</fieldset></br>
-<fieldset>
+
 	<center>
 	</br>
-		<form method="post" action="">
+		<form method="post" action="search.php">
 			<input type="text" name="search">
-			<input type="button" Value="SEARCH" name="search">
+			<input type="submit" Value="SEARCH">
 		</form>
 	</center>
-</fieldset>
+
 
 <fieldset>
 
@@ -91,11 +91,11 @@ window.onload=changeImg;
 
 			<td>
 				<h4>Join Us</h4></br>
-				<a href="http://www.facebook.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
 				</a>
-				<a href="http://www.gmail.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
 				</a>
-				<a href="http://www.twitter.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
 				</a>
 
 			</td>
