@@ -61,7 +61,7 @@ window.onload=changeImg;
 		<tr >
 			<td>
 				<h4>Customer Service</h4></br>
-				<a href="">Help center</a></br>
+				<a href="help.php">Help center</a></br>
 				<a href="">How to shop on Kinbo.com</a></br>
 				<a href="">Track order</a></br>
 				<a href="">Why shop with Kinbo</a></br>
