@@ -51,15 +51,6 @@ window.onload=changeImg;
 				</table></br></br></br>
 			</fieldset></br>
 
-	<center>
-	</br>
-		<form method="post" action="search.php">
-			<input type="text" name="search">
-			<input type="submit" Value="SEARCH">
-		</form>
-	</center>
-
-
 <fieldset>
 
 <center><img name="slide" width="600" height="300" /></center>
