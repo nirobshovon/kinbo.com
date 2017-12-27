@@ -45,7 +45,7 @@ window.onload=changeImg;
 						<td align="center"><a href="slider.php">Home</a></td>
 						<td align="center"><a href="index.php">Products</a></td>
 						<td align="center"><a href="aboutpage.php">About</a></td>
-						<td align="center"><a href="">Contact </a></td>
+						<td align="center"><a href="contact.php">Contact </a></td>
 						<td align="center"><a href="cart.php">Cart </a></td>
 						<td align="center"><a href="login.php">Login</a></td>
 					</tr>
