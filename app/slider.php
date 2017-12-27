@@ -49,6 +49,7 @@ window.onload=changeImg;
 						<td align="center"><a href="login.php">Login</a></td>
 					</tr>
 				</table></br></br></br>
+<<<<<<< HEAD
 				</fieldset></br>
 				<center >
 				<form  action="searching.php" method="post">
@@ -56,6 +57,10 @@ window.onload=changeImg;
                  <input type="submit" name="search" value="search item"><br><br>
 				</form>	
 				</center>
+=======
+			</fieldset></br>
+
+>>>>>>> d322758e3def3df27fd2fbf13f3a785b810c29b0
 <fieldset>
 
 <center><img name="slide" width="600" height="300" /></center>
@@ -88,11 +93,11 @@ window.onload=changeImg;
 
 			<td>
 				<h4>Join Us</h4></br>
-				<a href="http://www.facebook.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
 				</a>
-				<a href="http://www.gmail.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
 				</a>
-				<a href="http://www.twitter.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
+				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
 				</a>
 
 			</td>
