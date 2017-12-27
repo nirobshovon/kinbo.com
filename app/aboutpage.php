@@ -1,6 +1,6 @@
 <body>
 	<header>
-		<center><a href="index.php"><h1>Kinbo.com</h1></a>
+		<center><a href="slider.php"><h1>Kinbo.com</h1></a>
 		
 	</header>
 	<p align="center">
