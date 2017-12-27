@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2017 at 11:27 AM
+-- Generation Time: Dec 27, 2017 at 07:14 PM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -88,7 +88,12 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `category_id`, `title`, `short_desc`, `img_path`, `price`, `stock`) VALUES
-(10, 6, 'Iphone 10', 'Iphone 10', '1514299200apple-iphone-x-bangladesh.jpg', 130000, 10);
+(10, 6, 'Iphone 10', 'Iphone 10', '1514299200apple-iphone-x-bangladesh.jpg', 130000, 10),
+(11, 4, 'Huawei P10', 'Huawei P10', '1514396241Huawei-P10.jpg', 56000, 10),
+(12, 5, 'Nokia 6', 'Nokia 6', '1514396293Nokia-6.jpg', 22000, 20),
+(13, 3, 'Oneplus 5', 'Oneplus 5', '1514396331OnePlus-5.jpg', 39000, 12),
+(14, 1, 'Samsung Galaxy Note 8', 'Samsung Galaxy Note 8', '1514396373Samsung-Galaxy-Note8.jpg', 76000, 12),
+(15, 7, 'Xiaomi mi 6', 'Xiaomi mi 6', '1514396419Xiaomi-Mi-6.jpg', 30000, 15);
 
 -- --------------------------------------------------------
 
@@ -136,7 +141,9 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `gender`, `user_type_id`) VALUES
 (1, 'Administrator', 'admin@gmail.com', '123', 'male', 1),
 (13, 'Shovon', 'shovon@gmail.com', 'shovon', 'male', 2),
-(18, 'Rahatu rahat', 'rahat@gmail.com', '123456', 'male', 2);
+(18, 'Rahatu rahat', 'rahat@gmail.com', '123456', 'male', 2),
+(19, 'User Id', 'user@gmail.com', '123456', 'male', 2),
+(26, 'New User', 'new@gmail.com', '123456', 'male', 2);
 
 -- --------------------------------------------------------
 
@@ -223,7 +230,7 @@ ALTER TABLE `order_detail`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `product_category`
@@ -235,7 +242,7 @@ ALTER TABLE `product_category`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- Constraints for dumped tables
