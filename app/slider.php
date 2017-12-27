@@ -81,11 +81,11 @@ window.onload=changeImg;
 
 			<td>
 				<h4>Join Us</h4></br>
-				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
+				<a href="http://www.facebook.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\facebook.png"></img>
 				</a>
-				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
+				<a href="http://www.gmail.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\gmail.png"></img>
 				</a>
-				<a><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
+				<a href="http://www.twitter.com"><img width="32px" height="32px" src="C:\xampp\htdocs\kinbo.com\image\twitter.png"></img>
 				</a>
 
 			</td>
