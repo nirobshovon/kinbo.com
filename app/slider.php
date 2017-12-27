@@ -49,7 +49,17 @@ window.onload=changeImg;
 						<td align="center"><a href="login.php">Login</a></td>
 					</tr>
 				</table></br></br></br>
-				</fieldset>
+			</fieldset></br>
+<fieldset>
+	<center>
+	</br>
+		<form method="post" action="">
+			<input type="text" name="search">
+			<input type="button" Value="SEARCH" name="search">
+		</form>
+	</center>
+</fieldset>
+
 <fieldset>
 
 <center><img name="slide" width="600" height="300" /></center>
