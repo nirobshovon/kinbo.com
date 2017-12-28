@@ -74,7 +74,7 @@
 <body>
 
 	<th colspan="2">
-		
+
 				<h3>Welcome</h3>
 				<h3><?php echo $_SESSION['name'];?></h3>
 			</div>
@@ -116,7 +116,7 @@
 	<div class="add_category_area">
 
 		<div class="login_area">
-			<h2 style="text-align:center; color:#FFF">Add Category</h2>
+			<h2>Add Category</h2>
 			<form method="POST">
 				<center>
 					<input type="text" placeholder="Category Title" name="cat_title" value="<?php if (isset($_POST['cat_title'])) { echo $_POST['cat_title']; }  ?>" /></br>

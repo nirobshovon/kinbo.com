@@ -160,7 +160,7 @@
 
 					</br>Stock amount:&nbsp&nbsp<input type="text" placeholder="Stock" name="stock" value="<?php if (isset($_POST['stock'])) { echo $_POST['stock']; } ?>" /></br>
 
-							</br><textarea name="short_desc" placeholder="Short Description" style="width:80%;height:100px;margin-top:10px;"><?php if (isset($_POST['short_desc'])) { echo $_POST['short_desc']; }?></textarea>
+							</br><textarea name="short_desc" placeholder="Short Description"><?php if (isset($_POST['short_desc'])) { echo $_POST['short_desc']; }?></textarea>
 
 						</br></br><select name="cat" id="cat" ></br>
 								<option value="">Select Category</option>
