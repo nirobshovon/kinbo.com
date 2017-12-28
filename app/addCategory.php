@@ -116,12 +116,16 @@
 	<div class="add_category_area">
 
 		<div class="login_area">
+<<<<<<< HEAD
 			<h2>Add Category</h2>
+=======
+			<h2 >Add Category</h2>
+>>>>>>> 2d556dfa317cfe228450064e036b418b0ea7b8a1
 			<form method="POST">
 				<center>
 					<input type="text" placeholder="Category Title" name="cat_title" value="<?php if (isset($_POST['cat_title'])) { echo $_POST['cat_title']; }  ?>" /></br>
 
-					<textarea name="textarea"  placeholder="Short Description" style="width:80%;height:100px;margin-top:10px;" ><?php if (isset($_POST['textarea'])) { echo $_POST['textarea']; }?></textarea>
+					<textarea name="textarea"  placeholder="Short Description"  ><?php if (isset($_POST['textarea'])) { echo $_POST['textarea']; }?></textarea>
 
 					<input type="submit" name="add_category_btn" id="add_category_btn" value="Add Category"/>
 
